@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.liferay.example.poc">
+<namespace>Guestbook</namespace>
+<entity local-service="true" name="Guestbook" table="dxp_guestbook_guestbook" remote-service="true" uuid="true">
+<column type="long" name="guestbookId" primary="true"/>
+<column type="long" name="companyId"/>
+<column name="createDate" type="Date"/>
+<column name="modifiedDate" type="Date"/>
+<column name="groupId" type="long"/>
+<column name="lastPublishDate" type="Date"/>
+<column type="long" name="userId"/>
+<column type="String" name="userName"/>
+<column type="String" name="titulo" localized="true"/>
+<column type="String" name="descripcion" localized="true"/>
+</entity>
+</service-builder>

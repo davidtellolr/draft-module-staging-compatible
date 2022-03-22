@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.liferay.example.poc.model.Guestbook">
+		<field name="uuid" type="String" />
+		<field name="guestbookId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="groupId" type="long" />
+		<field name="lastPublishDate" type="Date" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field localized="true" name="titulo" type="String" />
+		<field localized="true" name="descripcion" type="String" />
+	</model>
+</model-hints>

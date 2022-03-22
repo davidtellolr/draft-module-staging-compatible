@@ -1,0 +1,10 @@
+Bundle-Name: Guestbook-api
+Bundle-SymbolicName: com.liferay.example.poc.api
+Bundle-Version: 1.0.35
+Export-Package:\
+	com.liferay.example.poc.exception,\
+	com.liferay.example.poc.model,\
+	com.liferay.example.poc.service,\
+	com.liferay.example.poc.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Guestbook-service/service.xml
